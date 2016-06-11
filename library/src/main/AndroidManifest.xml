@@ -16,10 +16,12 @@
         android:supportsRtl="true">
         <activity
             android:name="com.surajms.cameraman.MultiImageCameraActivity"
-            android:exported="true" />
+            android:exported="true"
+            android:theme="@style/Theme.AppCompat.NoActionBar" />
         <activity
             android:name="com.surajms.cameraman.ImagePreviewActivity"
-            android:exported="true" />
+            android:exported="true"
+            android:theme="@style/Theme.AppCompat.NoActionBar" />
     </application>
 
 </manifest>
